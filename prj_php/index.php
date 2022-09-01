@@ -11,7 +11,7 @@ include 'data.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet" /> 
-    <title>Discs</title>
+    <title>Dischi PHP</title>
 </head>
 <body>
     <header>
