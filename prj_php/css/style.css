@@ -1,0 +1,93 @@
+/* GENERICS */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* UTILS */
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/* VARS */
+
+:root{
+    --dark-blue: #1E2D3B;
+    --light-blue: #2E3A46;
+    --spotify-green: #64D762;
+}
+
+/* HEADER */
+
+header {
+    height: 60px;
+    background-color: var(--light-blue);
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo{
+    max-height: 100%;
+    filter: invert(71%) sepia(54%) saturate(475%) hue-rotate(67deg) brightness(94%) contrast(91%);
+    margin-left: 10px;
+}
+
+/* MAIN */
+
+main{
+    background-color: var(--dark-blue);
+    min-height: calc(100vh - 60px);
+
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.loading-message {
+    font-size: 3rem;
+    color: #FFF;
+    text-align: center;
+}
+
+/* CARD */
+
+.card {
+    width: calc((100% / 3) - 20px);
+    background-color: var(--light-blue);
+    margin: 0 10px 20px 10px;
+    padding: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card h4 {
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.author,
+h4 {
+  margin: 1rem 0;
+}
+
+
+
